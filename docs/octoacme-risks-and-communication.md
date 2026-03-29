@@ -21,6 +21,7 @@ Maintain a simple table with:
 
 ## Stakeholder Communication
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- **Customer Support / Customer Advocate** represents end-user feedback in stakeholder updates
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
 
@@ -39,4 +40,7 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
+- **QA Lead** escalates critical defects blocking release directly to PM and Product Manager
+- **DevOps / Platform Engineer** leads incident response; notifies PM and on-call
+- **Customer Support** escalates field issues to PM / Product Manager
 - For security incidents, follow the security incident runbook and notify Security on-call

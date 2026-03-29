@@ -14,8 +14,10 @@ After each sprint, release, or important milestone. Also after incidents.
 
 ## Running a Retrospective
 - Timebox: 45–75 minutes depending on team size
+- Invite all roles: Developers, UI/UX Designer, QA Lead, DevOps, Business Analyst, Customer Support, PM, and PdM
 - Use an anonymous idea board if needed to encourage candor
 - Prioritize 2–3 top action items to avoid overload
+- See [Post-Release → Retrospective Handoff Checklist](./octoacme-handoff-checklists.md#6-post-release--retrospective-handoff) for preparation steps
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines

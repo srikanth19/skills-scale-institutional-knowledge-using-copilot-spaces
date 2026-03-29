@@ -9,12 +9,14 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Align timelines, releases, and responsibilities
 
 ## Activities
-1. Kickoff meeting with stakeholders and delivery team
-2. Create prioritized backlog with acceptance criteria
+1. Kickoff meeting with stakeholders and delivery team (facilitated by **Project Manager**)
+2. Create prioritized backlog with acceptance criteria (**Business Analyst** drafts; **Product Manager** approves)
 3. Estimate scope (T-shirt sizing or story points)
-4. Define Definition of Done (DoD)
+4. Define Definition of Done (DoD) — owned by **QA Lead**, agreed by team
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
+7. Publish wireframes and design specs (**UI/UX Designer**) for team review
+8. Confirm CI/CD and environment readiness with **DevOps / Platform Engineer**
 
 ## Backlog Item Template
 - Title:
@@ -37,7 +39,10 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Planning Checklist
 - [ ] Project kickoff held
-- [ ] Backlog prioritized and estimated
+- [ ] Backlog prioritized and estimated (Business Analyst + Product Manager)
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Definition of Done documented (QA Lead owns)
+- [ ] Initial test plan / QA approach drafted (QA Lead)
+- [ ] Wireframes / design specs published (UI/UX Designer)
+- [ ] CI/CD and environments confirmed (DevOps / Platform Engineer)
+- [ ] See [Planning → Execution Handoff Checklist](./octoacme-handoff-checklists.md#2-planning--execution-handoff) before starting development

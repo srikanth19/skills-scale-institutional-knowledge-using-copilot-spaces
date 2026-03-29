@@ -17,11 +17,13 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
+- Unit tests for new logic (owned by **Developers**)
 - Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- End-to-end smoke tests for critical flows before release (owned by **QA Lead**)
+- Security scanning in CI (configured by **DevOps / Platform Engineer**)
+- UI/UX fidelity review by **UI/UX Designer** before QA begins
+- Manual QA for feature acceptance (**QA Lead** coordinates; **Customer Support** provides UAT scenarios when relevant)
+- Use the [Development → QA Handoff Checklist](./octoacme-handoff-checklists.md#3-development--qa-handoff-per-feature--sprint) before moving to QA
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -35,6 +37,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
+- [ ] CI configured for tests and lint (DevOps / Platform Engineer)
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Design reviews with UI/UX Designer scheduled each sprint
+- [ ] QA has access to staging environment (DevOps)

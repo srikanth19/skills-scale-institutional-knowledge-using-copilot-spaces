@@ -13,11 +13,13 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Decide go/no-go for planning
 
 ## Minimum Deliverables
-- Project One-pager (Problem, Goal, Success Metrics)
+- Project One-pager (owned by **Project Manager**, drafted with **Business Analyst**)
 - Stakeholder list & communication plan
 - High-level timeline and key milestones
-- Initial risk list
+- Initial risk list (owned by **Project Manager**, inputs from **Business Analyst** and team)
 - Resource needs (team roles, rough effort estimate)
+
+> For a complete view of who owns what at this phase, see the [Initiation → Planning Handoff Checklist](./octoacme-handoff-checklists.md#1-initiation--planning-handoff) and the [RACI matrix](./octoacme-cross-functional-roles-raci.md).
 
 ## Project One-pager Template
 - Project name:
@@ -27,7 +29,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: _(include UI/UX Designer, QA Lead, DevOps, BA, and Support as applicable)_
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
